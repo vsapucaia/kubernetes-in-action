@@ -10,6 +10,7 @@ spec:
     metadata:
       labels:
         app: kubia
+        vsf: "true"
     spec:
       containers:
       - name: kubia
